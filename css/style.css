@@ -15,3 +15,44 @@ img {
 .title-image {
     color: slategrey;
 }
+
+#container {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.quater {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+.quater:hover {
+    background-color: azure;
+}
+
+#quater0, #quater1, #quater2, #quater3, #quater4, #quater5 {
+    border-bottom: 10px solid black;
+}
+
+#quater2, #quater5, #quater8, #quater1, #quater4, #quater7 {
+    border-left: 10px solid black;
+}
+
+.winner {
+    color: red;
+}
