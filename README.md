@@ -17,7 +17,15 @@ In this project, the student builds a Tic Tac Toe game (Again) but this time itâ
 # Live Demo
 [Click here for Live Demo](https://fervent-ramanujan-781172.netlify.app)
 
-# Getting Started
+# How to Play the Game
+Game starts by just Tap on box
+
+You play on a three by three game board.
+
+First Player known as Player `X`
+And the Second Player is `0`
+
+Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled. X always goes first, and in the event that no one has three in a row.
 
 # Authors
 
