@@ -373,3 +373,6 @@ function myfunc_11() {
         flag = 1; 
     } 
 } 
+function myFunction() {
+    window.close();
+}
