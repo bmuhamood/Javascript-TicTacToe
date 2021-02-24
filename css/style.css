@@ -1,4 +1,11 @@
-    /* CSS Code */
+   /* index.html stylesheet */
+   .bgimg {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+   }
+
+   /* CSS Code */
     /* Heading */
     h1 { 
         color: orangered; 
