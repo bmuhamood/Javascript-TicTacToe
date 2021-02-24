@@ -1,3 +1,7 @@
+/* eslint-disable Expected indentation */
+/* eslint-disable Expected variable declaration */
+/* eslint-disable Expected '===' and instead saw '==' */
+
 // Function called whenever user tab on any box
 function myfunc() {
 
@@ -12,7 +16,7 @@ function myfunc() {
     b7 = document.getElementById("b7").value;
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
-  
+
     // Checking if Player X won or not and after
     // that disabled all the other fields
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
@@ -36,7 +40,7 @@ function myfunc() {
       document.getElementById("b6").disabled = true;
       document.getElementById("b8").disabled = true;
       document.getElementById("b9").disabled = true;
-  
+
       window.alert('Player X won');
     } else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
         b8 == 'X') && (b9 == 'x' || b9 == 'X')) {
@@ -349,3 +353,6 @@ function myfunc() {
       flag = 1;
     }
   }
+/* eslint-enable Expected indentation */
+/* eslint-enable Expected variable declaration */
+/* eslint-enable Expected '===' and instead saw '==' */
