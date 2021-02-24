@@ -1,7 +1,7 @@
-// Function called whenever user tab on any box 
+// Function called whenever user tab on any box
 function myfunc() {
 
-    // Setting DOM to all boxes or input field 
+    // Setting DOM to all boxes or input field
     var b1, b1, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("b1").value;
     b2 = document.getElementById("b2").value;
@@ -13,8 +13,8 @@ function myfunc() {
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
   
-    // Checking if Player X won or not and after  
-    // that disabled all the other fields 
+    // Checking if Player X won or not and after
+    // that disabled all the other fields
     if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
         b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
       document.getElementById('print')
@@ -106,9 +106,9 @@ function myfunc() {
       window.alert('Player X won');
     }
   
-    // Checking of Player X finsh 
-    // Checking for Player 0 starts, Is player 0 won or 
-    // not and after that disabled all the other fields 
+    // Checking of Player X finsh
+    // Checking for Player 0 starts, Is player 0 won or
+    // not and after that disabled all the other fields
     else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
         b2 == '0') && (b3 == '0' || b3 == '0')) {
       document.getElementById('print')
@@ -199,8 +199,8 @@ function myfunc() {
       window.alert('Player 0 won');
     }
   
-    // Checking of Player 0 finsh 
-    // Here, Checking about Tie 
+    // Checking of Player 0 finsh
+    // Here, Checking about Tie
     else if ((b1 == 'X' || b1 == '0') && (b2 == 'X' ||
         b2 == '0') && (b3 == 'X' || b3 == '0') &&
       (b4 == 'X' || b4 == '0') && (b5 == 'X' ||
@@ -212,7 +212,7 @@ function myfunc() {
       window.alert('Match Tie');
     } else {
   
-      // Here, Printing Result 
+      // Here, Printing Result
       if (flag == 1) {
         document.getElementById('print')
           .innerHTML = "Player X Turn";
@@ -223,7 +223,7 @@ function myfunc() {
     }
   }
   
-  // Function to reset game 
+  // Function to reset game
   function myfunc_2() {
     location.reload();
     document.getElementById('b1').value = '';
@@ -238,8 +238,8 @@ function myfunc() {
   
   }
   
-  // Here onwards, functions check turn of the player  
-  // and put accordingly value X or 0 
+  // Here onwards, functions check turn of the player
+  // and put accordingly value X or 0
   flag = 1;
   
   function myfunc_3() {
@@ -348,8 +348,4 @@ function myfunc() {
       document.getElementById("b9").disabled = true;
       flag = 1;
     }
-  }
-  
-  function myFunction() {
-    window.close();
   }
