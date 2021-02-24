@@ -1,106 +1,122 @@
-   /* index.html stylesheet */
+/* index.html stylesheet */
+
 /* Container needed to position the button. Adjust the width as needed */
 .container-fluid {
-    position: relative;
-    width: 50%;
-  }
-  
-  /* Make the image responsive */
-  .container-fluid img {
-    width: 100%;
-    height: auto;
-  }
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container-fluid img {
+  width: 100%;
+  height: auto;
+}
 
 .text {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
-  
+
 /* Style the button and place it in the middle of the container/image */
 .container-fluid .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 20%;
-    height: 15%;
-  }
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20%;
+  height: 15%;
+}
+
 .container-fluid .btn:hover {
-    background-color: black;
-  }
+  background-color: black;
+}
 
 .container-fluid .btn a {
-    text-decoration: none;
-    color: white;
-    font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
 }
-    /* Heading */
-    h1 { 
-        color: orangered; 
-        font-size: 45px; 
-    } 
-  
-    /* 3*3 Grid */
-    #b1, #b2, #b3, #b4, #b5,  
-    #b6, #b7, #b8, #b9 { 
-        width: 80px; 
-        height: 52px; 
-        margin: auto; 
-        border: 1px solid gray; 
-        border-radius: 6px; 
-        font-size: 30px; 
-        text-align: center; 
-    } 
-  
-    /* Reset Button */
-    #but { 
-        box-sizing: border-box; 
-        width: 95px; 
-        height: 40px; 
-        border: 1px solid dodgerblue; 
-        margin: auto; 
-        border-radius: 4px; 
-        font-family: Verdana,  
-            Geneva, Tahoma, sans-serif; 
-  
-        background-color: dodgerblue; 
-        color: white; 
-        font-size: 20px; 
-        cursor: pointer; 
-    }
+
+/* Heading */
+h1 {
+  color: orangered;
+  font-size: 45px;
+}
+
+/* 3*3 Grid */
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin: auto;
+  border-radius: 4px;
+  font-family:
+    Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
 
 #but a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-    /* Player turn space */
-    #print { 
-        font-family: Verdana,  
-            Geneva, Tahoma, sans-serif; 
-  
-        color: dodgerblue; 
-        font-size: 20px; 
-    } 
-  
-    /* Main Contianer */
-    #main { 
-        text-align: center; 
-    } 
-  
-    /* Game Instruction Text */
-    #ins { 
-        font-family: Verdana,  
-            Geneva, Tahoma, sans-serif; 
-              
-        color: dodgerblue; 
-        font-size: 17px; 
-    } 
+
+/* Player turn space */
+#print {
+  font-family:
+    Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+/* Main Contianer */
+#main {
+  text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+  font-family:
+    Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+  color: dodgerblue;
+  font-size: 17px;
+}
