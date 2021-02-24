@@ -1,6 +1,7 @@
-/* eslint-disable Expected indentation */
+/* eslint-disable indent */
 /* eslint-disable Expected variable declaration */
 /* eslint-disable Expected '===' and instead saw '==' */
+/* eslint-disable no-unused-vars */
 
 // Function called whenever user tab on any box
 function myfunc() {
@@ -353,6 +354,7 @@ function myfunc() {
       flag = 1;
     }
   }
-/* eslint-enable Expected indentation */
+/* eslint-enable indent */
 /* eslint-enable Expected variable declaration */
 /* eslint-enable Expected '===' and instead saw '==' */
+/* eslint-enable no-unused-vars */
