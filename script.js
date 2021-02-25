@@ -3,9 +3,8 @@
 /* eslint-disable brace-style */
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
-/* eslint-disable declaration-per-line */
 /* eslint-disable one-var */
-/* eslint-disable one-var-declaration-per-line */
+/* eslint-disable one-var-declaration-per-line declaration-per-line */
 /* eslint-disable no-lonely-if */
 /* eslint-disable no-restricted-globals */
 // Function called whenever user tab on any box
