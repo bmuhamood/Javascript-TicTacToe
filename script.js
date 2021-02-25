@@ -1,4 +1,9 @@
 /* eslint-disable declaration-per-line */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prefer-const */
+/* eslint-disable brace-style */
+/* eslint-disable no-undef */
+/* eslint-disable camelcase */
 // Function called whenever user tab on any box
 function myFunc() {
   // Setting DOM to all boxes or input field
@@ -301,4 +306,9 @@ function myFunc_11() {
     flag = 1;
   }
 }
-/* eslint-enable declaration-per-line */
+/* eslint-disable no-unused-vars */
+/* eslint-disable one-var-declaration-per-line */
+/* eslint-disable prefer-const */
+/* eslint-disable brace-style */
+/* eslint-disable no-undef */
+/* eslint-disable camelcase */
