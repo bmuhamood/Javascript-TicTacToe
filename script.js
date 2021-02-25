@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable declaration-per-line */
 // Function called whenever user tab on any box
 function myFunc() {
   // Setting DOM to all boxes or input field
@@ -301,4 +301,4 @@ function myFunc_11() {
     flag = 1;
   }
 }
-/* eslint-enable no-unused-vars */
+/* eslint-enable declaration-per-line */
