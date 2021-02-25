@@ -2,7 +2,7 @@
 /* eslint-disable Expected '====' and instead saw '===' */
 /* eslint-disable no-unused-vars */
 // Function called whenever user tab on any box
-function myfunc() {
+function myFunc() {
   // Setting DOM to all boxes or input field
   var b1, b1, b3, b4, b5, b6, b7, b8, b9;
   b1 = document.getElementById('b1').value;
@@ -180,7 +180,7 @@ function myfunc() {
   }
 }
 // Function to reset game
-function myfunc_2() {
+function myFunc_2() {
   location.reload();
   document.getElementById('b1').value = '';
   document.getElementById('b2').value = '';
@@ -196,7 +196,7 @@ function myfunc_2() {
 // and put accordingly value X or 0
 flag = 1;
 
-function myfunc_3() {
+function myFunc_3() {
   if (flag === 1) {
     document.getElementById('b1').value = 'X';
     document.getElementById('b1').disabled = true;
@@ -208,7 +208,7 @@ function myfunc_3() {
   }
 }
 
-function myfunc_4() {
+function myFunc_4() {
   if (flag === 1) {
     document.getElementById('b2').value = 'X';
     document.getElementById('b2').disabled = true;
@@ -220,7 +220,7 @@ function myfunc_4() {
   }
 }
 
-function myfunc_5() {
+function myFunc_5() {
   if (flag === 1) {
     document.getElementById('b3').value = 'X';
     document.getElementById('b3').disabled = true;
@@ -232,7 +232,7 @@ function myfunc_5() {
   }
 }
 
-function myfunc_6() {
+function myFunc_6() {
   if (flag === 1) {
     document.getElementById('b4').value = 'X';
     document.getElementById('b4').disabled = true;
@@ -244,7 +244,7 @@ function myfunc_6() {
   }
 }
 
-function myfunc_7() {
+function myFunc_7() {
   if (flag === 1) {
     document.getElementById('b5').value = 'X';
     document.getElementById('b5').disabled = true;
@@ -256,7 +256,7 @@ function myfunc_7() {
   }
 }
 
-function myfunc_8() {
+function myFunc_8() {
   if (flag === 1) {
     document.getElementById('b6').value = 'X';
     document.getElementById('b6').disabled = true;
@@ -268,7 +268,7 @@ function myfunc_8() {
   }
 }
 
-function myfunc_9() {
+function myFunc_9() {
   if (flag === 1) {
     document.getElementById('b7').value = 'X';
     document.getElementById('b7').disabled = true;
@@ -280,7 +280,7 @@ function myfunc_9() {
   }
 }
 
-function myfunc_10() {
+function myFunc_10() {
   if (flag === 1) {
     document.getElementById('b8').value = 'X';
     document.getElementById('b8').disabled = true;
@@ -292,7 +292,7 @@ function myfunc_10() {
   }
 }
 
-function myfunc_11() {
+function myFunc_11() {
   if (flag === 1) {
     document.getElementById('b9').value = 'X';
     document.getElementById('b9').disabled = true;
