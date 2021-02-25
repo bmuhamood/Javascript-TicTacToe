@@ -2,7 +2,7 @@
 // Function called whenever user tab on any box
 function myFunc() {
   // Setting DOM to all boxes or input field
-  let b1, b1, b3, b4, b5, b6, b7, b8, b9;
+  let b1, b2, b3, b4, b5, b6, b7, b8, b9;
   b1 = document.getElementById('b1').value;
   b2 = document.getElementById('b2').value;
   b3 = document.getElementById('b3').value;
