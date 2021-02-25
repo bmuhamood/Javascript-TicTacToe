@@ -1,5 +1,3 @@
-/* eslint-disable indent */
-/* eslint-disable Expected '====' and instead saw '===' */
 /* eslint-disable no-unused-vars */
 // Function called whenever user tab on any box
 function myFunc() {
@@ -303,6 +301,4 @@ function myFunc_11() {
     flag = 1;
   }
 }
-/* eslint-enable indent */
-/* eslint-enable Expected '====' and instead saw '===' */
 /* eslint-enable no-unused-vars */
