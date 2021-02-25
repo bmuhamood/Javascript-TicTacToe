@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-/* eslint-disable Expected variable declaration */
+/* eslint-disable singlequote */
 /* eslint-disable Expected '===' and instead saw '==' */
 /* eslint-disable no-unused-vars */
 // Function called whenever user tab on any box
@@ -305,6 +305,6 @@ function myfunc_11() {
   }
 }
 /* eslint-enable indent */
-/* eslint-enable Expected variable declaration */
+/* eslint-enable singlequote */
 /* eslint-enable Expected '===' and instead saw '==' */
 /* eslint-enable no-unused-vars */
