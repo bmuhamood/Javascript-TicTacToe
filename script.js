@@ -1,4 +1,3 @@
-/* eslint-disable declaration-per-line */
 /* eslint-disable no-unused-vars */
 /* eslint-disable prefer-const */
 /* eslint-disable brace-style */
@@ -311,6 +310,7 @@ function myFunc_11() {
     flag = 1;
   }
 }
+/* eslint-enable declaration-per-line */
 /* eslint-enable no-unused-vars */
 /* eslint-enable one-var-declaration-per-line */
 /* eslint-enable prefer-const */
