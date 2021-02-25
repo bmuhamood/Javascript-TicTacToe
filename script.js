@@ -4,6 +4,11 @@
 /* eslint-disable brace-style */
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
+/* eslint-disable declaration-per-line */
+/* eslint-disable one-var */
+/* eslint-disable one-var-declaration-per-line */
+/* eslint-disable no-lonely-if */
+/* eslint-disable no-restricted-globals */
 // Function called whenever user tab on any box
 function myFunc() {
   // Setting DOM to all boxes or input field
@@ -306,9 +311,13 @@ function myFunc_11() {
     flag = 1;
   }
 }
-/* eslint-disable no-unused-vars */
-/* eslint-disable one-var-declaration-per-line */
-/* eslint-disable prefer-const */
-/* eslint-disable brace-style */
-/* eslint-disable no-undef */
-/* eslint-disable camelcase */
+/* eslint-enable no-unused-vars */
+/* eslint-enable one-var-declaration-per-line */
+/* eslint-enable prefer-const */
+/* eslint-enable brace-style */
+/* eslint-enable no-undef */
+/* eslint-enable camelcase */
+/* eslint-enable one-var */
+/* eslint-enable one-var-declaration-per-line */
+/* eslint-enable no-lonely-if */
+/* eslint-enable no-restricted-globals */
