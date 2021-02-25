@@ -3,15 +3,15 @@
 function myFunc() {
   // Setting DOM to all boxes or input field
   let b1, b2, b3, b4, b5, b6, b7, b8, b9;
-  b1 = document.getElementById('b1').value;
-  b2 = document.getElementById('b2').value;
-  b3 = document.getElementById('b3').value;
-  b4 = document.getElementById('b4').value;
-  b5 = document.getElementById('b5').value;
-  b6 = document.getElementById('b6').value;
-  b7 = document.getElementById('b7').value;
-  b8 = document.getElementById('b8').value;
-  b9 = document.getElementById('b9').value;
+  const b1 = document.getElementById('b1').value;
+  const b2 = document.getElementById('b2').value;
+  const b3 = document.getElementById('b3').value;
+  const b4 = document.getElementById('b4').value;
+  const b5 = document.getElementById('b5').value;
+  const b6 = document.getElementById('b6').value;
+  const b7 = document.getElementById('b7').value;
+  const b8 = document.getElementById('b8').value;
+  const b9 = document.getElementById('b9').value;
   // Checking if Player X won or not and after
   // that disabled all the other fields
   if ((b1 === 'x' || b1 === 'X') && (b2 === 'x' || b2 === 'X') && (b3 === 'x' || b3 === 'X')) {
