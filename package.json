@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "fix-js": "eslint-auto-fix"
+    }
+  }
